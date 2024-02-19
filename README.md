@@ -1,27 +1,48 @@
-# JournayJournalV2
+# Journay_Journal_V2
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
+**Дипломный проект по специальности 09.02.03 «Программирование в компьютерных системах» СПБКТ.**
 
-## Development server
+<p>По предмету «Технология разработки программного обеспечения» на тему «Разработка платформы для социальной сети для коммуникации и взаимодействия пользователей»</p> 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<img src= >
+<p>
+  <img src= >
+  <img src= >
+  <img src= >
+</p>
 
-## Code scaffolding
+Работы по проекту, которые были выполнены:
+<!-- 1. Определить требования к результату
+2. Изучение необходимых теоретических материалов
+3. Подготовка теоретических материалов
+4. Разработка дизайна в Figma - https://clck.ru/36HvQ2
+5. Разработка логотипа в Adobe Illustrator -->
+<!-- <p>
+    <img src="/src/img/logo/JJ-03.svg" width="300" >
+</p>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+6. Верстка страницы HOME
+7. Верстка страницы Пользователя
+8. Создание бокового меню 
+9. Верстка модального окна:
+   1. Модального окна регистрации 1 и 2 ,
+   2. Модального окна "Создание заметки" ,
+   3. Модального окна "Моя карта",
+   4. Модального окна "Создание поездки"
+10. Верстка страницы настроек
 
-## Build
+11. Разработка бэкенда проекта
+12. Разработка Базы Данных СУБД PostgresSQL
+<div>
+     <img src="/src/img/Readme/image.jpg" width="400" >
+</div>  -->
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<!--  Связывание логики верификации и регистрации с интерфейсом
+  - переходы между страницами верификации, регистрации и страницы пользователя -->
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+<!-- 
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Перенос данных в приветственное окно. Отображение и обновление данных  -->
