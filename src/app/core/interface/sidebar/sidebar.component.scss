@@ -1,4 +1,4 @@
-.sidebar-menu {
+.sidebar__menu {
     position: fixed;
     background: none;
     top: 180px;
@@ -6,19 +6,17 @@
     width: 109px;
     height: 500px;
     display: flex;
-    justify-content: center;
-  }
-  
-  .sidebar-menu ul {
+    justify-content: center;  
+  &__ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
   }
-  .sidebar-menu li {
+  &__li {
     margin-bottom: 5px;
   }
   
-  .sidebar-menu  a {
+  &__a {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -30,11 +28,11 @@
     color: $textColor;
   }
   
-  .sidebar-menu img {
+  &__img {
     width: 25px;
     height: 25px;
   }
 
-
+}
 
  
