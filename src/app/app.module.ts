@@ -10,6 +10,7 @@ import { MySideBar } from './core/interface/sidebar/sidebar.component';
 import { MyHeader } from './core/interface/header/header.component';
 import { SettingsComponent } from './settings/settings.component';
 import { NotefeedComponent } from './notefeed/notefeed.component';
+import { ButtonComponent } from './core/Decorator/button/button.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { NotefeedComponent } from './notefeed/notefeed.component';
     MySideBar,
     MyHeader,
     SettingsComponent,
-    NotefeedComponent
+    NotefeedComponent,
+    ButtonComponent
 
     
   ],

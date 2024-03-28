@@ -4,10 +4,9 @@
 
 <p> На тему: <br>
  «Разработка платформы для социальной сети для коммуникации и взаимодействия пользователей»</p> 
-
-<img src="/src/assets/img/Readme/1.jpg" width="250" height="300" >
 <p>
-  <img src="Readme/C1.jpg" width="250" height="300" >
+  <img src="Readme/C1.jpg"> 
+  <br>
   <img src="Readme/C2.jpg" width="250" height="300" >
   <img src="Readme/C3.jpg" width="250" height="300" >
 </p>
