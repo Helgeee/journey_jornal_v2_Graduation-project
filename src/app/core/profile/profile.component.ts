@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
-    selector: 'my-profile',
+    selector: 'profile-page',
     templateUrl: './profile.component.html',
     styleUrl: './profile.component.scss',
 })

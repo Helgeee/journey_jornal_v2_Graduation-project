@@ -1,4 +1,4 @@
-.accaunt{
+.profile{
     &__container{
         width: 520px;
         height: 320px;
@@ -28,7 +28,7 @@
         justify-content: center;
         display: grid;
 
-        color: $primaryColor;
+        // color: $primaryColor;
     }
     &__statist  {
         max-width: 412px;
@@ -37,7 +37,7 @@
         flex-direction: row;
         justify-content: center;
         display: grid;
-        color: $textColor;
+        // color: $textColor;
     }
     &__buttons{
         margin: 10px;
@@ -50,7 +50,7 @@
     &__title{
         margin-top: 10px;
         text-align: center;
-        color: $primaryColor;
+        // color: $primaryColor;
         text-transform: uppercase;
     }
     

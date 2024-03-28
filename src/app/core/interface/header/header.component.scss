@@ -1,58 +1,58 @@
-// .header {
-//     &__logo{
-//     background: none; 
-//     margin-top: 42px ;
-//     position: absolute;
-//     left: 95px;
-//     width: 128px;
-//     height: 91px;
-//     margin-bottom: 20px;
-//     z-index: 10;
+.header {
+    margin-top: 30px;
+    &__logo{
+    background: none; 
+    position: absolute;
+    left: 95px;
+    width: 128px;
+    height: 91px;
+    margin-bottom: 20px;
+    z-index: 10;
     
-//     }
-// }
+    }
+}
 
-// .search {
-//     &-form {
-//       padding: 50px;
-//       position: relative; top: 50%; left: 50%;
-//       -webkit-transform: translate(-50%, -50%);
-//       -ms-transform: translate(-50%, -50%);
-//       transform: translate(-50%, -50%);
+.search {
+    &__form {
+      padding: 50px;
+      position: relative; top: 50%; left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
 
-//       width: 759px;
-//       height: 70px;
-//       top: 50px;
-//       border: 1px solid $frameСolor;
-//       padding: 10px;
-//       border-radius: 15px; 
-//       background: transparent;
+      width: 759px;
+      height: 70px;
+      top: 50px;
+
+      padding: 10px;
+      border-radius: 15px; 
+      background: transparent;
       
-//     }
-//     &-wrapper {
-//       display: grid;
-//       grid-template-columns: 27px 569px 56px;
-//       grid-template-rows: 50px;
-//       grid-gap: 20px;
-//       align-items: center;
-//     }
-//     &-input {
-//       width: 569px;
-//       height: 64px; 
+    }
+    &__wrapper {
+      display: grid;
+      grid-template-columns: 27px 569px 56px;
+      grid-template-rows: 50px;
+      grid-gap: 20px;
+      align-items: center;
+    }
+    &__input {
+      width: 569px;
+      height: 64px; 
       
-//       outline: 0;
-//       outline-offset: 0;
-//       background: transparent;  
-//       border: none;      
-//     }
-//     &-icon {
-//       display: block;
-//       align-items: center;
-//     }
-//     &-avatar {
-//       display: block;
-//       align-items: center;
-//     }
+      outline: 0;
+      outline-offset: 0;
+      background: transparent;  
+      border: none;      
+    }
+    &__icon {
+      display: block;
+      align-items: center;
+    }
+    &__avatar {
+      display: block;
+      align-items: center;
+    }
      
-//   }
+  }
     

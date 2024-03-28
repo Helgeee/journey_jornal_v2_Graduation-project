@@ -1,4 +1,4 @@
-.sidebar__menu {
+.sidebar-menu {
     position: fixed;
     background: none;
     top: 180px;
@@ -7,32 +7,37 @@
     height: 500px;
     display: flex;
     justify-content: center;  
-  &__ul {
+
+  ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
   }
-  &__li {
+  li {
     margin-bottom: 5px;
   }
   
-  &__a {
+  
+  a {
     align-items: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-decoration: none;
     padding: 5px;
-    text-transform:uppercase;
     font-size: 10px;
-    color: $textColor;
   }
-  
-  &__img {
-    width: 25px;
-    height: 25px;
+  svg{
+    transition:  0.25s;
+    fill: rgba(73, 40, 109, 1);
   }
-
-}
-
- 
+  svg:hover {
+    fill: rgba(73, 40, 109, 1);
+    width: 32px;
+    height: 32px;
+  }
+  span{
+    color: rgba(73, 40, 109, 1);
+    font-size: 12px;
+  }
+  }
