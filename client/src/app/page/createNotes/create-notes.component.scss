@@ -1,0 +1,52 @@
+.create-notes{
+    display: block;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    
+    flex-direction: row;
+    
+    justify-content: space-between;
+    flex-direction: column; 
+
+}
+
+.notes-contents{
+    display: flex;
+    flex-direction: column; /* Элементы располагаются в виде колонки */
+    justify-content: center; 
+    margin: 6px ;
+
+    // min-height: 300px;
+    // max-height: 600px;
+    
+    padding: 20px;
+
+}
+.note-img{
+    width:  100px;
+    width: 310px;
+    background-color: #000;
+}
+
+.notes-title{
+    margin-top: 10px;
+    background-color: rgb(239,239,240);
+}
+.notes-coordinates{
+    margin-top: 10px;
+    background-color: rgb(239,239,240);
+}
+.notes-note{
+    margin: 10px 0px   10px 0px;
+    min-height: 180px;
+    min-width: 480px;
+    background-color: rgb(239,239,240);
+    
+
+}
+
+
+
+
+

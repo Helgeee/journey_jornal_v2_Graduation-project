@@ -1,0 +1,87 @@
+.sidebar-menu {
+  position: fixed;
+  background: none;
+  top: 180px;
+  left: 100px;
+  width: 109px;
+  height: 500px;
+  display: flex;
+  justify-content: center;  
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin-bottom: 5px;
+}
+.textMenu {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12px;
+}
+// .textMenu:hover{
+//   color: rgba(73, 40, 109, 1);
+//   font-size: 12px;
+// }
+}
+
+
+.sidebar-element  {
+  align-items: center;
+  background: none ;
+  border: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  padding: 5px;
+  color: rgba(97, 100, 107, 1);
+ 
+}
+
+.sidebar-element:hover{
+  // transition:  0.50s;
+  transition: background-color 1s ease-in-out;
+  color: rgba(73, 40, 109, 1);
+  width: 42px;
+  height: 42px;
+}
+
+
+
+
+
+
+
+
+
+.indexbar{
+  // margin: 0 ;
+  // margin-top: 100px;
+  margin-left: 270px ;
+  display: flex;
+  justify-content: flex-end ;
+  flex-direction: row;
+  text-decoration: none;
+
+ 
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+a  {
+text-decoration: none;
+padding: 15px;
+font-family: "Mulish", sans-serif;
+font-weight: 500;
+font-size: 18px;
+}
+.sidebar-element{
+  font-size: 18px;
+}

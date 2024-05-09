@@ -1,0 +1,33 @@
+<!-- 
+*ngIf="this.authService.isAuthSig(); -->
+
+<div *ngIf="isAuth;  " class="header"  > 
+
+      <div class="header__logo">
+        <img  src="/assets/img/logo/JJ01.svg" alt="">
+      </div>
+  
+      <form class="search__form">
+          <div class="search__wrapper">
+              <img class="search__icon" src="assets/icons/Search.svg" alt="Search">
+
+              <input class="search__input" type="text"  placeholder=" Know where you wanna go?">
+              
+              <div class="search__avatar">
+                <svg  width="56" height="55" viewBox="0 0 56 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_41_9459)">
+                  <path d="M55 27.4166C55 41.6443 42.9522 53.25 28 53.25C13.0478 53.25 1 41.6443 1 27.4166C1 13.189 13.0478 1.58331 28 1.58331C42.9522 1.58331 55 13.189 55 27.4166Z" fill="#EFEFF0" stroke="#AFB1B6" stroke-width="2"/>
+                  <path d="M37.5 21.8264C37.5 26.7918 33.2872 30.8889 28 30.8889C22.7128 30.8889 18.5 26.7918 18.5 21.8264C18.5 16.861 22.7128 12.7639 28 12.7639C33.2872 12.7639 37.5 16.861 37.5 21.8264Z" stroke="#AFB1B6" stroke-width="2"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M5.86072 43.8471C10.6967 37.9759 18.8085 34.125 27.9996 34.125C37.1907 34.125 45.3026 37.9759 50.1385 43.8471C49.711 44.3753 49.2634 44.8879 48.7967 45.3836C44.4233 39.876 36.8691 36.125 27.9996 36.125C19.1301 36.125 11.5759 39.876 7.20248 45.3836C6.73583 44.8879 6.28821 44.3753 5.86072 43.8471Z" fill="#AFB1B6"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_41_9459">
+                  <rect width="56" height="53.6667" fill="white" transform="translate(0 0.583313)"/>
+                  </clipPath>
+                  </defs>
+                  </svg>    
+              </div>
+                
+          </div>        
+      </form>
+</div>

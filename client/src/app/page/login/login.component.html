@@ -1,0 +1,71 @@
+
+
+
+        <form [formGroup] ="userData" 
+            (ngSubmit)="onSubmit()">
+
+            <div class="index__container">
+
+
+                <div class="index__logo">
+                    <img   src="/client/src/assets/img/logo/JJ-03.svg" alt="">
+                </div>
+                    
+
+                <div class="index__content">
+
+            
+                    <h1>
+                        <span class="index__bigTitle textColor "> Зарегистрироваться <br> или  </span>
+                        <span class="index__bigTitle indexTitleColor "> войдите в свой аккаунт</span>
+                    </h1>
+                    
+
+
+                    <div class="index__block">
+                        <label class="index__title "> Логин или Почта </label> <br>
+                        
+                        <input class="index__win " id="email" type="text" name="email" placeholder="Почта">
+                        
+                        <div *ngIf="userData.controls['email'].invalid &&
+                            ( userData.controls['email'].dirty || userData.controls['email'].touched)"
+                            class="text-error">
+
+                            <div *ngIf="userData.controls['email'].hasError('required') ">Email is required</div>
+
+                            <div *ngIf="userData.controls['email'].hasError('email')">Please enter a valid email adress</div>
+                        </div>
+                    
+                    </div>
+                    
+
+                    
+                    <div>
+                        <label class="index__title "> Пароль </label> <br>
+                        <input formControlName="password"
+                        required
+                        id="password"  class=" index__win " type="password" name="password" placeholder=" Пароль">
+
+                        
+                        <div *ngIf="userData.controls['password'].invalid &&
+                            ( userData.controls['password'].dirty || userData.controls['email'].touched)"
+                            class="text-error">
+
+                        <div *ngIf="userData.controls['password'].hasError('required') ">Email is required</div>
+
+                        <div *ngIf="userData.controls['password'].hasError('minLength')">Please enter a valid password (6)</div>
+                    </div>
+                    
+
+
+                    <div class="buttons">
+                        <button  class="index__btn  button main" > Вход </button> 
+                        <!-- <button  class="index__btn  button main" > Регистрация </button> -->
+                    </div>
+                    
+
+                    <!-- <div class="index__socialbtn">
+                            <button class="social_btn  title title_fs14"> <img class="" src="../src/icons/links/Yandex.svg" alt=""> Вход через Yandex</button> 
+                    </div>  -->
+                </div>   
+            </div>

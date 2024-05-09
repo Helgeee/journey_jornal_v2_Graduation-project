@@ -1,0 +1,31 @@
+.ribbon {
+    
+    &__buttons{
+        margin-top: 40px;
+        z-index: 120;
+        grid-template-columns: 345px 345px;
+        justify-content: center;
+        grid-gap: 20px;
+        display: grid;
+        place-items: center;
+        background: none;
+    }
+    
+}
+
+.postHome{
+    
+    &__container{
+        margin: 0 auto;
+        margin-top: 56px;
+        grid-template-columns: 355px 355px;
+        grid-gap: 30px 17px;
+        display: grid;
+        grid-auto-rows: minmax(217 , 294);
+        justify-content: center;
+    }
+    &__item{
+        padding: 10px;
+    }
+    
+}

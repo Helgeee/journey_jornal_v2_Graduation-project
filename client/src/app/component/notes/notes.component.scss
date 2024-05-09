@@ -1,0 +1,41 @@
+.notes {
+    background-color: #fff;
+    width: 500px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    padding: 20px;
+    border: 1px solid $frameСolor;
+    z-index: 9999;
+  &__contents {
+    text-align: center;
+  }
+  &__img{
+    padding: 5px;
+    display: block;
+    max-width: 450px;
+    height: 180px;
+    border-radius: 10px;
+    border: 2px solid $textColor;
+    padding: 5px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  &__img{
+    padding: 5px;
+    display: block;
+    max-width: 450px;
+    height: 180px;
+    border-radius: 10px;
+    border: 2px solid $textColor;
+    padding: 5px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+}
